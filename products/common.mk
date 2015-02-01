@@ -19,7 +19,7 @@ PRODUCT_PACKAGES += \
     LatinImeDictionaryPack \
     libemoji \
     libscreenrecorder \
-	LockClock \
+    LockClock \
     OmniSwitch \
     OTAUpdateCenter \
     OmniTorch \
@@ -208,3 +208,8 @@ PRODUCT_COPY_FILES += \
 # Camera shutter sound property
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.camera-sound=1
+
+# Inherit sabermod configs. Don't include if TARGET_ARCH isn't defined
+ifndef TARGET_ARCH
+    include vendor/xenonhd/configs/sm.mk
+endif

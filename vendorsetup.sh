@@ -1,6 +1,7 @@
 add_lunch_combo xenonhd_bacon-userdebug
+add_lunch_combo xenonhd_bacon-user
 add_lunch_combo xenonhd_crespo-userdebug
-add_lunch_combo xenonhd_d2lte-userdebug
+add_lunch_combo xenonhd_d2spr-user
 add_lunch_combo xenonhd_e975-userdebug
 add_lunch_combo	xenonhd_endeavoru-userdebug
 add_lunch_combo xenonhd_find5-userdebug
