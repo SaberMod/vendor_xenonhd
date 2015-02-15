@@ -9,8 +9,6 @@ PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_MODEL := d2spr
 
-PRODUCT_GMS_CLIENTID_BASE := android-verizon
-
 # Copy d2 specific prebuilt files
 PRODUCT_COPY_FILES +=  \
 	vendor/xenonhd/proprietary/hybrid/hybrid_xhdpi_no_nav.conf:system/etc/beerbong/properties.conf \
